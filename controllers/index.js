@@ -64,7 +64,7 @@ module.exports = {
         });
     },
 	'GET /react': async (ctx, next) => {
-        ctx.render('react.html', {
+        ctx.render('index.html', {
             title: 'React'
         });
     },
