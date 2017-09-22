@@ -1,0 +1,188 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑","Microsoft YaHei","Microsoft YaHei UI", "Segoe UI", Arial, Verdana, Sans-Serif, sans-serif;
+}
+
+.layui-layout-admin .layui-header {
+    background-color: #23262E;
+}
+.header-demo {
+    height: 60px;
+    border-bottom: none;
+}
+.header {
+    height: 59px;
+    border-bottom: 1px solid #404553;
+    background-color: #393D49;
+}
+
+.header-demo .logo {
+    left: 40px;
+}
+.logo {
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+.logo img {
+    width: 82px;
+    height: 31px;
+}
+
+.header-demo .layui-nav {
+    top: 0;
+}
+.header .layui-nav {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    padding: 0;
+    background: none;
+}
+
+.layui-layout-admin .layui-footer {
+    width: calc(100% - 200px);
+    width: -moz-calc(100%-200px);
+    width: -webkit-calc(100%-200px);
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #666;
+    font-weight: 300;
+    bottom: 0px;
+    left: 200px;
+    z-index: 1000;
+}
+
+.layui-layout-admin #larry-body {
+    top: 70px;
+    left: 203px;
+    width: calc(100% - 200px);
+    width: -moz-calc(100%-200px);
+    width: -webkit-calc(100%-200px);
+    height: calc(100%-100px);
+    height: -moz-calc(100%-100px);
+    height: -webkit-calc(100%-100px);
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1000;
+    border: none !important;
+    margin-left: -1px;
+    padding-bottom: 0px;
+}
+
+#larry-body {
+    background-color: lightblue;
+}
+#larry-tab{
+	padding:0;
+	margin:0;
+}
+.layui-body {
+    background: #F2F2F2;
+    overflow: hidden;
+}
+
+.layui-tab .larry-title-box .go-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1005;
+}
+
+.layui-tab .larry-title-box .key-press {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-right: 1px solid #E2E2E2;
+    cursor: pointer;
+    color: #009688;
+    text-align: center;
+}
+
+.layui-tab .larry-title-box .title-right {
+    width: 230px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1005;
+    background: #FFFFFF;
+    border-left: 1px solid #E5E5E5;
+}
+
+.layui-tab .larry-title-box .title-right .go-right {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.layui-tab .larry-title-box .title-right .refresh {
+    width: 68px;
+    position: absolute;
+    top: 0px;
+    left: 41px;
+    background: #5EB95E;
+}
+
+.layui-tab .larry-title-box {
+    width: 100%;
+    height: 40px;
+    background: #fafafa;
+    margin-top: -1px;
+    position: relative;
+    border-bottom: 1px solid #1AA094;
+	
+}
+
+em {
+    font-style: normal;
+}
+
+.layui-tab .larry-title-box .key-press {
+    cursor: pointer;
+    color: #009688;
+    text-align: center;
+}
+
+.layui-tab-content .layui-tab-item iframe {
+    width: 100%;
+    border: 0;
+    height: 100%;
+}
+
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.layui-tab .layui-tab-content {
+    margin: 0px;
+    padding: 0px;
+    background: #F1F2F7;
+}
+
+.layui-this{
+	background-color: #393D49;
+}
+
+#layui-tab-title .layui-this{
+	background-color: #39aa49;
+}
+
+[v-cloak] {
+   display: none;
+}
+
+.layui-nav-item a{
+	cursor: pointer;
+}

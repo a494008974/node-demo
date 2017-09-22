@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" charset="utf-8" content="text/html" >
+	<title>UI</title>
+	<link rel="stylesheet" type="text/css" href="./public/css/global.css">
+	<link rel="stylesheet" href="./layui/css/layui.css">
+</head>
+<body>
+	<div class="layui-layout layui-layout-admin">
+	
+		<div class='layui-header header header-demo'>
+			<div class="layui-main">
+				<a class="logo" href="/">
+				  <img src="./public/images/logo.png" alt="layui">
+				</a>
+				
+				<ul class="layui-nav" lay-filter="mMenu">					 
+				      <li class="layui-nav-item layui-this"><a>大数据</a></li>
+					  <li class="layui-nav-item"><a>大数据</a></li>
+					  <li class="layui-nav-item"><a>大数据</a></li>
+					  <li class="layui-nav-item"><a>大数据</a></li>
+					  <li class="layui-nav-item"><a>大数据</a></li>
+				</ul>
+			  </div>
+		</div>
+		
+		<div class="layui-side layui-bg-black">
+			<div class="layui-side-scroll">
+			  
+			<ul class="layui-nav layui-nav-tree" lay-filter="sMenu">
+				<li class="layui-nav-item layui-nav-itemed">
+					<a>默认展开</a>
+					<dl class="layui-nav-child">
+					  <dd><a href="javascript:;">选项一</a></dd>
+					  <dd><a href="javascript:;">选项二</a></dd>
+					  <dd><a>选项三</a></dd>
+					  <dd><a>跳转项</a></dd>
+					</dl>
+				  </li>
+				  <li class="layui-nav-item">
+					<a>解决方案</a>
+					<dl class="layui-nav-child">
+					  <dd><a>移动模块</a></dd>
+					  <dd><a>后台模版</a></dd>
+					  <dd><a>电商平台</a></dd>
+					</dl>
+				  </li>
+				  <li class="layui-nav-item">
+					<a>解决方案</a>
+					<dl class="layui-nav-child">
+					  <dd><a>移动模块</a></dd>
+					  <dd><a>后台模版</a></dd>
+					  <dd><a>电商平台</a></dd>
+					</dl>
+				  </li>
+				  <li class="layui-nav-item">
+					<a>解决方案</a>
+					<dl class="layui-nav-child">
+					  <dd><a>移动模块</a></dd>
+					  <dd><a>后台模版</a></dd>
+					  <dd><a>电商平台</a></dd>
+					</dl>
+				  </li>
+				  <li class="layui-nav-item">
+					<a>解决方案</a>
+					<dl class="layui-nav-child">
+					  <dd><a>移动模块</a></dd>
+					  <dd><a>后台模版</a></dd>
+					  <dd><a>电商平台</a></dd>
+					</dl>
+				  </li>
+				  <li class="layui-nav-item">
+					<a>解决方案</a>
+					<dl class="layui-nav-child">
+					  <dd><a>移动模块</a></dd>
+					  <dd><a>后台模版</a></dd>
+					  <dd><a>电商平台</a></dd>
+					</dl>
+				  </li>
+				  <li class="layui-nav-item">
+					<a>解决方案</a>
+					<dl class="layui-nav-child">
+					  <dd><a>移动模块</a></dd>
+					  <dd><a>后台模版</a></dd>
+					  <dd><a>电商平台</a></dd>
+					</dl>
+				  </li>
+				  <li class="layui-nav-item"><a>云市场</a></li>
+				  <li class="layui-nav-item"><a>社区</a></li>
+			</ul>
+
+			</div>
+		</div>
+		
+		<div class='layui-body'>
+				<div class="layui-tab" id="larry-tab" lay-filter="larryTab">
+				 <div class="larry-title-box">
+									 
+					 <ul class="layui-tab-title" lay-allowclose="true" id="layui-tab-title" lay-filter="subadd">
+						<li lay-id="0" class=""><i class="larry-icon larry-houtaishouye" aria-hidden="true"></i><em>后台首页</em></li>
+					    <li lay-id="1" class="layui-this"><i class="larry-icon larry-xiugaimima2" aria-hidden="true"></i><em>修改密码</em><i class="layui-icon layui-unselect layui-tab-close" data-id="1">ဆ</i></li>
+						<li lay-id="2" class=""><i class="larry-icon larry-rizhi2" aria-hidden="true"></i><em>日志信息</em><i class="layui-icon layui-unselect layui-tab-close" data-id="2">ဆ</i></li>
+						<li lay-id="3" class=""><i class="larry-icon larry-gerenxinxi1" aria-hidden="true"></i><em>个人信息</em><i class="layui-icon layui-unselect layui-tab-close" data-id="3">ဆ</i></li></ul>
+
+				 </div>
+				 <div class="layui-tab-content" style="height: 617px;">
+					 <div class="layui-tab-item"><iframe class="larry-iframe" data-id="0" name="ifr_0" id="ifr0" src="html/main.php" style="height: 617px;"></iframe></div>
+					 
+					 <div class="layui-tab-item layui-show"><iframe src="html/changepwd.html" data-id="1" name="ifr_1" id="ifr1" class="larry-iframe" style="height: 617px;"></iframe></div>
+					 <div class="layui-tab-item"><iframe src="default.html" data-id="2" name="ifr_2" id="ifr2" class="larry-iframe" style="height: 617px;"></iframe></div>
+					 <div class="layui-tab-item"><iframe src="html/personInfo.html" data-id="3" name="ifr_3" id="ifr3" class="larry-iframe" style="height: 617px;"></iframe></div>
+				 </div>
+			</div>
+		
+		</div>
+		<div class='layui-footer'>
+			<div class="layui-main">
+				   <p>2016-2017 © Write by Larry,LarryCMS. 版权所有,基于前端框架Layui1.09</p> 
+			 </div>
+		</div>
+			
+	</div>
+	<script src="./layui/layui.js"></script>
+
+	<script>
+	
+		layui.use('element', function(){
+		  var element = layui.element(); //导航的hover效果、二级菜单等功能，需要依赖element模块
+		  
+		  //监听导航点击
+		  element.on('nav(mMenu)', function(elem){
+			
+			//alert("AAAA:"+elem.text());
+			//layer.msg(elem.text());
+		  });
+		  
+		  element.on('nav(sMenu)', function(elem){
+			
+			//alert("BBB:"+elem.text());
+			//layer.msg(elem.text());
+		  });
+		});
+		
+	</script>
+
+</body>
+</html>

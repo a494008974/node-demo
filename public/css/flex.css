@@ -1,0 +1,45 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html {
+	display: flex;
+	justify-content:center;
+}
+
+.HolyGrail {
+  display: flex;
+  width:80%;
+  height:100vh;
+  flex-direction: column;
+  background:#333;
+}
+
+header,footer {
+  flex: 1;
+  width:100%;
+  background:#aaa;
+}
+
+.HolyGrail-body {
+  width:100%;
+  display: flex;
+  flex: 5;
+}
+
+.HolyGrail-content {
+  flex: 1;
+  background:#444;
+}
+
+.HolyGrail-nav, .HolyGrail-ads {
+  flex: 0 0 20%;
+  background:#555;
+}
+
+.HolyGrail-nav {
+  /* 导航放到最左边 */
+  order: -1;
+  background:#666;
+}
