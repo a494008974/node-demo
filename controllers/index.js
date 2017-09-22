@@ -8,17 +8,17 @@ module.exports = {
     },
 	'GET /A': async (ctx, next) => {
         ctx.render('A.html', {
-            title: '首页'
+            title: '后台管理'
         });
     },
 	'GET /B': async (ctx, next) => {
         ctx.render('B.html', {
-            title: '首页'
+            title: '后台管理'
         });
     },
 	'GET /C': async (ctx, next) => {
         ctx.render('C.html', {
-            title: '首页'
+            title: '后台管理'
         });
     },
 	'GET /admin': async (ctx, next) => {
