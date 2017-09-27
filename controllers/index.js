@@ -64,8 +64,13 @@ module.exports = {
         });
     },
 	'GET /react': async (ctx, next) => {
-        ctx.render('index.html', {
+        ctx.render('indexreact.html', {
             title: 'React'
+        });
+    },
+    'GET /vue': async (ctx, next) => {
+        ctx.render('indexvue.html', {
+            title: 'Vue'
         });
     },
 	'GET /pet/add': async (ctx, next) => {
